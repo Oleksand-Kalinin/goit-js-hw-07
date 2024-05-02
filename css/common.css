@@ -11,7 +11,6 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-  max-width: 440px;
   margin: 0 auto;
 }
 
@@ -25,6 +24,20 @@ li {
 h1,
 h2 {
   margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* #region task-1 */
+.task-one {
+  max-width: 440px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -66,3 +79,24 @@ h2 {
   border-radius: 4px;
   padding: 8px 16px;
 }
+
+/* #endregion task-1 */
+
+/* #region task-2 */
+.task-two {
+  max-width: 1440px;
+  padding: 100px 156px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.gallery li {
+  max-width: calc((100% - 24px * 2) / 3);
+}
+
+/* #endregion task-2 */
