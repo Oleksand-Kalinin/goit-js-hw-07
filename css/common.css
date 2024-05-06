@@ -135,3 +135,54 @@ h2 {
 }
 
 /* #endregion task-3 */
+
+/* #region task-4 */
+
+.task-four {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  margin: 40px auto;
+}
+
+.input-wrapper,
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.input-wrapper {
+  margin-bottom: 16px;
+}
+
+.login-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px 16px;
+}
+
+.login-form button {
+  background: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 86px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.login-form button:hover,
+.login-form button:focus {
+  background: #8299EA;
+  cursor: pointer;
+}
+
+/* #endregion task-4 */
