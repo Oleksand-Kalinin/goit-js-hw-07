@@ -34,8 +34,14 @@ img {
 }
 
 .list-tasks {
-  max-width: 440px;
+  max-width: 64px;
   margin: 40px auto;
+}
+
+a[href="./index.html"] {
+  display: block;
+  width: 100px;
+  margin: 12px auto;
 }
 
 /* #region task-1 */
@@ -216,3 +222,12 @@ h2 {
 }
 
 /* #endregion task-5 */
+
+/* #region task-6 */
+
+.task-six {
+  min-width: 534px;
+  margin: 40px auto;
+}
+
+/* #endregion task-6 */
