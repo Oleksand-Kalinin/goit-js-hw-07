@@ -181,8 +181,38 @@ h2 {
 
 .login-form button:hover,
 .login-form button:focus {
-  background: #8299EA;
+  background: #6c8cff;
   cursor: pointer;
 }
 
 /* #endregion task-4 */
+
+/* #region task-5 */
+
+.task-five {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.task-five button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.task-five button:hover,
+.task-five button:focus {
+  background: #6c8cff;
+  cursor: pointer;
+}
+
+/* #endregion task-5 */
