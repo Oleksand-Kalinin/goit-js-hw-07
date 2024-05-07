@@ -27,14 +27,15 @@ const images = [
 
 
 const listGallery = document.querySelector('.gallery');
+const galleryDocFragment = document.createDocumentFragment();
 images.forEach((image) => {
   const itemGallery = document.createElement('li');
   const imgHtml = document.createElement('img');
   imgHtml.src = image.url;
   imgHtml.alt = image.alt;
   itemGallery.append(imgHtml);
-  listGallery.append(itemGallery);
+  galleryDocFragment.append(itemGallery);
 });
+listGallery.append(galleryDocFragment);
 
-
-
+// На жаль поки не розумію як обєкт можна перетворити на HTML з використанням методу insertAdjacentHTML. Можливо на лекції розкажуть. А ось Ваша підказка методом DocumentFragment домогла. Дякую
