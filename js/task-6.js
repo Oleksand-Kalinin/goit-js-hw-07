@@ -20,17 +20,15 @@ function getRandomHexColor() {
 
 
 function createBoxes(amount) {
-  // console.log(amount);
-  const countBoxes = Number(amount);
-  const divBox = document.createElement('div');
-  divBox.style.width = '30px';
-  divBox.style.height = '30px';
 
-  for (let i = 1; i <= countBoxes; i++) {
+  const countBoxes = Number(amount);
+
+  for (let i = 1, width = 30, height = 30; i <= countBoxes; i++, width += 10, height += 10) {
+    const divBox = document.createElement('div');
+    divBox.style.width = `${width}px`;
+    divBox.style.height = `${height}px`;
     divBox.style.backgroundColor = getRandomHexColor();
     divBoxes.append(divBox);
-    // divBox.style.width = '30px';
-    // divBox.style.height = '30px';
   }
   numberInput.value = '';
 }
