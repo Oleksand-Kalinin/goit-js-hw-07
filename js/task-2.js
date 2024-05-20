@@ -37,5 +37,3 @@ images.forEach((image) => {
   galleryDocFragment.append(itemGallery);
 });
 listGallery.append(galleryDocFragment);
-
-// На жаль поки не розумію як обєкт можна перетворити на HTML з використанням методу insertAdjacentHTML. Можливо на лекції розкажуть. А ось Ваша підказка методом DocumentFragment домогла. Дякую
